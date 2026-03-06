@@ -1,0 +1,52 @@
+# 编译生成文件
+build/
+bin/
+*.o
+*.so
+*.a
+
+# 可执行文件
+mahjong_server
+test_runner
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.swp
+*~
+*.swp
+*.swo
+
+# 配置文件（包含敏感信息）
+config/local.conf
+.env
+*.local
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.code-workspace
+.project
+.classpath
+.settings/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 测试相关
+coverage/
+*.gcda
+*.gcno
+
+# 文档生成
+docs/html/
+docs/latex/
+
+# 包管理
+deps/
+vendor/
